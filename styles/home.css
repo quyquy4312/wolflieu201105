@@ -1,0 +1,62 @@
+.first-heading{
+    height: 30rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../images/intro.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.first-heading .opening{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.first-heading .opening .head-text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.first-heading .opening .head-text .text{
+    font-size: 72px;
+    font-weight: 400;
+    line-height: 1.2em;
+}
+.first-heading .opening .head-text .white{
+    font-family:'Times New Roman', Times, serif ;
+    color: #fff;
+}
+.first-heading .opening .head-text .yellow{
+    font-family:'Times New Roman', Times, serif ;
+    color: #ffc222;
+}
+.first-heading .opening .button-change{
+    display: flex;
+    width: 70%;
+    height: 5rem;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 2rem;
+}
+.first-heading .opening .button-change .button{
+    height: 100%;
+    font-size: 2rem;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 12rem;
+}
+.first-heading .opening .button-change .get-menu{
+    background-color: #ffc222;
+    color: #434343;
+    border-radius: 30px;
+}
+.first-heading .opening .button-change .order-food{
+    color: #fff;
+    border-style: solid;
+    border-width: 3px;
+    border-color: #fff;
+    border-radius: 30px;
+}

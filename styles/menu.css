@@ -1,0 +1,78 @@
+.first-heading{
+    height: 18rem;
+    background-image: url(../images/menu.jpg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.first-heading .heading-text{
+    font-size: 100px;
+    font-family: 'Courier New', Courier, monospace;
+    color: rgba(0, 0, 0, 0.766);
+}
+main{
+    background-color: antiquewhite;
+}
+.body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.menu{
+    display: grid;
+    width: 80%;
+    grid-template-columns: repeat(3, 30%);
+    grid-template-rows: repeat(2, auto);
+    gap: 5%;
+    margin-top: 7.5rem;
+    margin-bottom: 8rem;
+}
+.menu .choices{
+    height: 40rem;
+    background-color: #fff;
+    border-radius: 30px;
+    text-decoration: none;
+    color: black;
+}
+.menu .choices .choice-image{
+    height: 20rem;
+    background-size: cover;
+    background-position: center;
+    border-radius: 30px;
+    position: relative;
+}
+.menu .choices .choice-image .type-of-food{
+    background-color: rgb(97, 225, 11);
+    height: 40px;
+    width: 9rem;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    border-radius: 30px 0px;
+}
+.menu .choices .details{
+    width: 80%;
+    margin-left: 10%;
+}
+#sport-menu{
+    background-image: url(../images/sport\ menu.jpg);
+}
+#slimming-menu{
+    background-image: url(../images/slimming\ menu.jpg);
+}
+#office-menu{
+    background-image: url(../images/office\ menu.jpg);
+}
+#muscle-gain-menu{
+    background-image: url(../images/muscle\ gain\ menu.jpg);
+}
+#vegetarian-menu{
+    background-image: url(../images/vegetarian\ menu.jpg);
+}
+#balanced-menu{
+    background-image: url(../images/balanced\ menu.jpg);
+}

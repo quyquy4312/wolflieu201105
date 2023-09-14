@@ -1,0 +1,126 @@
+.first-heading{
+    width: 100%;
+    height: 18rem;
+    background-image: url(../images/menu.jpg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.first-heading .heading-text{
+    font-size: 100px;
+    font-family: 'Courier New', Courier, monospace;
+    color: rgba(0, 0, 0, 0.766);
+}
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: antiquewhite;
+}
+.details{
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+}
+.details .costs{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-size: 3rem;
+    height: 6rem;
+}
+.details .kkal{
+    font-size: 2rem;
+    height: 4rem;
+}
+.details .benefits{
+    font-size: 1rem;
+    text-align: center;
+    height: 4rem;
+}
+.green{
+    color: #00a149;
+}
+#loginAlert{
+    color: red;
+    font-size: 1rem;
+    display: none;
+}
+.details .cart{
+    background-color: #ffe70b;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 12rem;
+    height: 4rem;
+    font-size: 2rem;
+    border-style: solid;
+    border-width: 0.1rem;
+    border-radius: 1rem;
+    cursor: pointer;
+}
+.body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin-top: 5rem;
+    margin-bottom: 3rem;
+}
+.body .meals{
+    display: grid;
+    width: 80%;
+    grid-template-columns: repeat(3, 30%);
+    gap: 5%;
+}
+.bold{
+    font-weight: bold;
+}
+.body .meals .mealType{
+    width: auto;
+    height: 36rem;
+    background-color: #fff;
+    border-radius: 2rem;
+}
+.body .meals .mealType .image{
+    height: 20rem;
+    background-size: cover;
+    background-position: center;
+    border-radius: 2rem;
+}
+#breakfastToast{
+    background-image: url("../images/breakfast\ toast.jpg");
+}
+#juicyMeatWithVegetables{
+    background-image: url("../images/juicy\ meat\ with\ vegetables.jpg");
+}
+#paleo{
+    background-image: url("../images/paleo.jpg");
+}
+#avocado{
+    background-image: url("../images/avocado.jpg");
+}
+#vegetableMix{
+    background-image: url("../images/Vegetable\ mix.jpg");
+}
+#greenSmoothie{
+    background-image: url("../images/green\ smoothie.jpg");
+}
+#salmonSet{
+    background-image: url("../images/salmon\ set.jpg");
+}
+#chickenSet{
+    background-image: url("../images/chicken\ set.jpg");
+}
+#salmonAndVegetablesSet{
+    background-image: url("../images/salmon\ and\ vegetables\ set.jpg");
+}
+#vegetableSoup{
+    background-image: url("../images/vegetable\ soup.jpg");
+}

@@ -1,0 +1,92 @@
+.first-heading{
+    width: 100%;
+    height: 18rem;
+    background-image: url(../images/menu.jpg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.first-heading .heading-text{
+    font-size: 100px;
+    font-family: 'Courier New', Courier, monospace;
+    color: rgba(0, 0, 0, 0.766);
+}
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: antiquewhite;
+}
+.item-box{
+    width: 100%;
+    background-color: antiquewhite;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.item-box .item{
+    width: 80%;
+    height: 5rem;
+    background-color: #fff;
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    margin-top: 3rem;
+    border: 0.1rem solid;
+    border-radius: 1rem;
+    display: none;
+}
+.item-box .item .trashbin{
+    background-color: red;
+    color: #fff;
+    font-size: 2rem;
+    text-align: middle;
+    width: 2rem;
+    align-items: center;
+    position: relative;
+    border-radius: 0.9rem 0 0 0.9rem;
+    margin-right: 1rem;
+}
+.item-box .item .trashbin .bi-trash3-fill{
+    position: absolute;
+    top: 1rem;
+}
+.item-box .item .texts{
+    width: 80%;
+}
+.item-box .item .nameAndPrice{
+    display: flex;
+    flex-direction: row;
+}
+.item-box .item .texts .nameAndPrice .name{
+    font-size: 2rem;
+    text-decoration: none;
+    color: darkgreen;
+}
+.item-box .item .texts .nameAndPrice .price{
+    font-size: 2rem;
+    margin-left: 3rem;
+    color: darkgoldenrod;
+}
+.item-box .item .numberChange{
+    position: absolute;
+    right: 2%;
+    height: 2rem;
+    top: 1.5rem;
+    display: flex;
+    width: 8rem;
+    justify-content: space-between;
+}
+.item-box .item .numberChange .changeButton{
+    font-size: 1.5rem;
+    color: darkgreen;
+}
+.item-box .item .numberChange .number{
+    height: 2.5rem;
+    width: 3rem;
+    text-align: center;
+    font-size: 1.5rem;
+    border: 0.1rem solid;  
+}

@@ -1,0 +1,30 @@
+header{
+    height: 3.5rem;
+    background-color: rgba(0, 0, 0, 0.788);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+header .header-text{
+    height: 100%;
+    font-size: 1.5rem;
+    color: #fff;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.welcome-text-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center ;
+}
+.welcome-text-box .white{
+    color: #fff;
+}
+#Auth-btn{
+    background-color: #ffffffe0;
+    width: 7rem;
+    border-radius: 20px;
+}
